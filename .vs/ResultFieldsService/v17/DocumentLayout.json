@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultfieldsservice\\controllers\\resultfieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|solutionrelative:controllers\\resultfieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultfieldsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultfieldsservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultfieldsservice\\services\\resultfieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|solutionrelative:services\\resultfieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultfieldsservice\\cassandraconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|solutionrelative:cassandraconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultfieldsservice\\models\\resultfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|solutionrelative:models\\resultfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultfieldsservice\\resultfieldsservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{30525DEF-977A-4955-A115-6B5B8FF2901A}|ResultFieldsService.csproj|solutionrelative:resultfieldsservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:53:36.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResultFieldsController.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\Controllers\\ResultFieldsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ResultFieldsController.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\Controllers\\ResultFieldsController.cs",
+              "RelativeToolTip": "Controllers\\ResultFieldsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswCoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:53:19.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultFieldService.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\Services\\ResultFieldService.cs",
+              "RelativeDocumentMoniker": "Services\\ResultFieldService.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\Services\\ResultFieldService.cs",
+              "RelativeToolTip": "Services\\ResultFieldService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:51:46.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CassandraConnector.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\CassandraConnector.cs",
+              "RelativeDocumentMoniker": "CassandraConnector.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\CassandraConnector.cs",
+              "RelativeToolTip": "CassandraConnector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:49:58.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResultField.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\Models\\ResultField.cs",
+              "RelativeDocumentMoniker": "Models\\ResultField.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\Models\\ResultField.cs",
+              "RelativeToolTip": "Models\\ResultField.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:49:41.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-07T22:46:15.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResultFieldsService.http",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\ResultFieldsService.http",
+              "RelativeDocumentMoniker": "ResultFieldsService.http",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultFieldsService\\ResultFieldsService.http",
+              "RelativeToolTip": "ResultFieldsService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-08T02:15:10.891Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultFieldsService", "ResultFieldsService.csproj", "{30525DEF-977A-4955-A115-6B5B8FF2901A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30525DEF-977A-4955-A115-6B5B8FF2901A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30525DEF-977A-4955-A115-6B5B8FF2901A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30525DEF-977A-4955-A115-6B5B8FF2901A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30525DEF-977A-4955-A115-6B5B8FF2901A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C78EDBCB-CFD8-4E5A-956D-73FA51F272D9}
+	EndGlobalSection
+EndGlobal
