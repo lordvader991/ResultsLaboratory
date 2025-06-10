@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FieldsService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ea557109026ba06ae0e90717da24cf2e71a4d6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FieldsService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FieldsService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

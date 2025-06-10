@@ -9,7 +9,9 @@
       "FieldsService/1.0.0": {
         "dependencies": {
           "CassandraCSharpDriver": "3.22.0",
-          "Swashbuckle.AspNetCore": "8.1.4"
+          "Swashbuckle.AspNetCore": "8.1.4",
+          "Swashbuckle.AspNetCore.SwaggerGen": "8.1.4",
+          "Swashbuckle.AspNetCore.SwaggerUI": "8.1.4"
         },
         "runtime": {
           "FieldsService.dll": {}

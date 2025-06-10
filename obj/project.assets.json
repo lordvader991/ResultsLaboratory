@@ -4069,7 +4069,9 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "CassandraCSharpDriver >= 3.22.0",
-      "Swashbuckle.AspNetCore >= 8.1.4"
+      "Swashbuckle.AspNetCore >= 8.1.4",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 8.1.4",
+      "Swashbuckle.AspNetCore.SwaggerUI >= 8.1.4"
     ]
   },
   "packageFolders": {
@@ -4079,11 +4081,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\FieldsService.csproj",
+      "projectUniqueName": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.csproj",
       "projectName": "FieldsService",
-      "projectPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\FieldsService.csproj",
+      "projectPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.csproj",
       "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\obj\\",
+      "outputPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4127,6 +4129,14 @@
             "version": "[3.22.0, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[8.1.4, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
+            "target": "Package",
+            "version": "[8.1.4, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerUI": {
             "target": "Package",
             "version": "[8.1.4, )"
           }

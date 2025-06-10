@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\",
+  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\fieldsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\fieldsservice\\services\\fieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\fieldsservice\\resultslaboratory\\services\\fieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:services\\fieldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\fieldsservice\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\fieldsservice\\resultslaboratory\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\fieldsservice\\controllers\\fieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:controllers\\fieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\fieldsservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\fieldsservice\\fieldsservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:fieldsservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\fieldsservice\\fieldsservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\fieldsservice\\resultslaboratory\\fieldsservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:fieldsservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\fieldsservice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\fieldsservice\\resultslaboratory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\fieldsservice\\resultslaboratory\\controllers\\fieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:controllers\\fieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\fieldsservice\\resultslaboratory\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\fieldsservice\\resultslaboratory\\fieldsservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:fieldsservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\fieldsservice\\resultslaboratory\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\fieldsservice\\cassandraconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\fieldsservice\\resultslaboratory\\cassandraconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{624E396E-4944-412E-9DDE-691544004EAE}|FieldsService.csproj|solutionrelative:cassandraconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,55 +46,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:47:33.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FieldsService.http",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\FieldsService.http",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.http",
               "RelativeDocumentMoniker": "FieldsService.http",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\FieldsService.http",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.http",
               "RelativeToolTip": "FieldsService.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-07T22:46:40.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T22:46:40.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FieldsController.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\Controllers\\FieldsController.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\Controllers\\FieldsController.cs",
               "RelativeDocumentMoniker": "Controllers\\FieldsController.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\Controllers\\FieldsController.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\Controllers\\FieldsController.cs",
               "RelativeToolTip": "Controllers\\FieldsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T21:12:39.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T21:12:39.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FieldService.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\Services\\FieldService.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\Services\\FieldService.cs",
               "RelativeDocumentMoniker": "Services\\FieldService.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\Services\\FieldService.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\Services\\FieldService.cs",
               "RelativeToolTip": "Services\\FieldService.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwD4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T21:12:19.635Z",
               "EditorCaption": ""
@@ -103,64 +89,75 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "CassandraConnector.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\CassandraConnector.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\CassandraConnector.cs",
               "RelativeDocumentMoniker": "CassandraConnector.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\CassandraConnector.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\CassandraConnector.cs",
               "RelativeToolTip": "CassandraConnector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T21:11:43.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Field.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\Models\\Field.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\Models\\Field.cs",
               "RelativeDocumentMoniker": "Models\\Field.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\Models\\Field.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\Models\\Field.cs",
               "RelativeToolTip": "Models\\Field.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T21:11:29.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\appsettings.json",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-07T21:10:50.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T21:10:50.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\Program.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T21:10:49.5Z",
+              "WhenOpened": "2025-06-07T21:10:49.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FieldsService.csproj",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.csproj",
+              "RelativeDocumentMoniker": "FieldsService.csproj",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.csproj",
+              "RelativeToolTip": "FieldsService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-07T22:47:42.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FieldsService.csproj",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\FieldsService.csproj",
-              "RelativeDocumentMoniker": "FieldsService.csproj",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\FieldsService.csproj",
-              "RelativeToolTip": "FieldsService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-07T22:47:42.119Z"
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T22:47:33.222Z"
             }
           ]
         }

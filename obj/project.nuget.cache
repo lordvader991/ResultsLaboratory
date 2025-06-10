@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kLws0E/D59Q=",
+  "dgSpecHash": "ZcTrxHQEFkE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\FieldsService\\FieldsService.csproj",
+  "projectFilePath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josem\\.nuget\\packages\\cassandracsharpdriver\\3.22.0\\cassandracsharpdriver.3.22.0.nupkg.sha512",
     "C:\\Users\\josem\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",

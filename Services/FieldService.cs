@@ -60,7 +60,7 @@ namespace FieldsService.Services
             // Buscar el máximo field_id existente para ese testTypeId
             var rs = await _session.ExecuteAsync(new SimpleStatement("SELECT field_id FROM fields WHERE test_type_id = ?", field.TestTypeId));
             var fieldIds = rs.Select(r => r.GetValue<int>("field_id")).ToList();
-            field.FieldId = fieldIds.Count > 0 ? fieldIds.Max() + 1 : 0;
+            field.FieldId = fieldIds.Count > 0 ? fieldIds.Max() + 1 : 1;
 
             var now = DateTime.UtcNow;
             field.CreatedAt = now;
