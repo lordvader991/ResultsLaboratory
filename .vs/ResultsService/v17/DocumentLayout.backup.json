@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\",
+  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultsservice\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultsservice\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultsservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultsservice\\services\\resultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\resultsservice\\resultslaboratory\\services\\resultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:services\\resultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\microservicio\\resultsservice\\cassandraconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\resultsservice\\resultslaboratory\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\resultsservice\\resultslaboratory\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\resultsservice\\resultslaboratory\\cassandraconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:cassandraconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\resultsservice\\resultslaboratory\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\resultsservice\\resultslaboratory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE69663B-AC4F-4C95-89DC-8600C7C14D0D}|ResultsService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,30 +34,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\Program.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAgAAABRAAAAAAAAAA==",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T21:31:05.095Z",
+              "WhenOpened": "2025-06-07T21:31:05.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CassandraConnection.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\CassandraConnection.cs",
+              "RelativeDocumentMoniker": "CassandraConnection.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\CassandraConnection.cs",
+              "RelativeToolTip": "CassandraConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:29:19.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "Models\\Result.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\Models\\Result.cs",
+              "RelativeToolTip": "Models\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:28:35.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResultService.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\Services\\ResultService.cs",
+              "RelativeDocumentMoniker": "Services\\ResultService.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\Services\\ResultService.cs",
+              "RelativeToolTip": "Services\\ResultService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwE4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:29:49.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ResultsController.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\Controllers\\ResultsController.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\Controllers\\ResultsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ResultsController.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\Controllers\\ResultsController.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\Controllers\\ResultsController.cs",
               "RelativeToolTip": "Controllers\\ResultsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T21:30:39.114Z",
               "EditorCaption": ""
@@ -65,50 +103,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ResultService.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\Services\\ResultService.cs",
-              "RelativeDocumentMoniker": "Services\\ResultService.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\Services\\ResultService.cs",
-              "RelativeToolTip": "Services\\ResultService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswDQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T21:29:49.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CassandraConnection.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\CassandraConnection.cs",
-              "RelativeDocumentMoniker": "CassandraConnection.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\CassandraConnection.cs",
-              "RelativeToolTip": "CassandraConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T21:29:19.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\Models\\Result.cs",
-              "RelativeDocumentMoniker": "Models\\Result.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\Models\\Result.cs",
-              "RelativeToolTip": "Models\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T21:28:35.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\appsettings.json",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-07T21:28:14.337Z",
               "EditorCaption": ""

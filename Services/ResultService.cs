@@ -40,13 +40,48 @@ namespace ResultsService.Services
             };
         }
 
+        public async Task<IEnumerable<Result>> GetResultsByOrderIdAsync(int orderId)
+        {
+            var rs = await _session.ExecuteAsync(
+                new SimpleStatement("SELECT * FROM results WHERE order_id = ?", orderId)
+            );
+            return rs.Select(row => new Result
+            {
+                ResultId = row.GetValue<int>("result_id"),
+                OrderId = row.GetValue<int>("order_id"),
+                PatientId = row.GetValue<int>("patient_id"),
+                TestTypeId = row.GetValue<int>("test_type_id"),
+                Status = row.GetValue<string>("status"),
+                CreatedAt = row.GetValue<DateTime>("created_at"),
+                UpdatedAt = row.GetValue<DateTime>("updated_at")
+            });
+        }
+
+        public async Task<IEnumerable<Result>> GetResultsByPatientIdAsync(int patientId)
+        {
+            var rs = await _session.ExecuteAsync(
+                new SimpleStatement("SELECT * FROM results WHERE patient_id = ? ALLOW FILTERING", patientId)
+            );
+            return rs.Select(row => new Result
+            {
+                ResultId = row.GetValue<int>("result_id"),
+                OrderId = row.GetValue<int>("order_id"),
+                PatientId = row.GetValue<int>("patient_id"),
+                TestTypeId = row.GetValue<int>("test_type_id"),
+                Status = row.GetValue<string>("status"),
+                CreatedAt = row.GetValue<DateTime>("created_at"),
+                UpdatedAt = row.GetValue<DateTime>("updated_at")
+            });
+        }
+
+
 
         public async Task<int> AddResultAsync(Result result)
         {
             // Autoincrementar el ResultId
             var rs = await _session.ExecuteAsync(new SimpleStatement("SELECT result_id FROM results"));
             var resultIds = rs.Select(r => r.GetValue<int>("result_id")).ToList();
-            result.ResultId = resultIds.Count > 0 ? resultIds.Max() + 1 : 0;
+            result.ResultId = resultIds.Count > 0 ? resultIds.Max() + 1 : 1;
 
             var now = DateTime.UtcNow;
             result.Status = "Pendiente";
@@ -72,5 +107,7 @@ namespace ResultsService.Services
             await _session.ExecuteAsync(new SimpleStatement(
                 "DELETE FROM results WHERE result_id = ?", resultId));
         }
+
+
     }
 }

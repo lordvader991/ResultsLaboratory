@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\ResultsService.csproj": {}
+    "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\ResultsService.csproj": {
+    "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\ResultsService.csproj",
+        "projectUniqueName": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
         "projectName": "ResultsService",
-        "projectPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\ResultsService.csproj",
+        "projectPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
         "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\ResultsService\\obj\\",
+        "outputPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\ResultsService\\ResultsLaboratory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
