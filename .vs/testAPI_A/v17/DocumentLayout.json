@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\models\\dtos\\dtoupdatepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:models\\dtos\\dtoupdatepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\models\\dtos\\dtoreadpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:models\\dtos\\dtoreadpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\models\\dtos\\dtocreatepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:models\\dtos\\dtocreatepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\services\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:services\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\testapi_a.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:testapi_a.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\clientsservice\\cassandraconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B72F44A6-991C-4490-80D2-CB500FA62EE3}|testAPI_A.csproj|solutionrelative:cassandraconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-10T00:45:57.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "testAPI_A.csproj",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\testAPI_A.csproj",
+              "RelativeDocumentMoniker": "testAPI_A.csproj",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\testAPI_A.csproj",
+              "RelativeToolTip": "testAPI_A.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-09T22:34:21.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:40:39.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DTOReadPatient.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Models\\DTOS\\DTOReadPatient.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\DTOReadPatient.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Models\\DTOS\\DTOReadPatient.cs",
+              "RelativeToolTip": "Models\\DTOS\\DTOReadPatient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:57:44.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:53:33.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DTOCreatePatient.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Models\\DTOS\\DTOCreatePatient.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\DTOCreatePatient.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Models\\DTOS\\DTOCreatePatient.cs",
+              "RelativeToolTip": "Models\\DTOS\\DTOCreatePatient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:55:58.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DTOUpdatePatient.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Models\\DTOS\\DTOUpdatePatient.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\DTOUpdatePatient.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Models\\DTOS\\DTOUpdatePatient.cs",
+              "RelativeToolTip": "Models\\DTOS\\DTOUpdatePatient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:57:06.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAWwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:38:44.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPatient.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Services\\IPatient.cs",
+              "RelativeDocumentMoniker": "Services\\IPatient.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Services\\IPatient.cs",
+              "RelativeToolTip": "Services\\IPatient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:40:23.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:54:57.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T22:35:47.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CassandraConnector.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\CassandraConnector.cs",
+              "RelativeDocumentMoniker": "CassandraConnector.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\clientsService\\CassandraConnector.cs",
+              "RelativeToolTip": "CassandraConnector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T23:03:54.465Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
