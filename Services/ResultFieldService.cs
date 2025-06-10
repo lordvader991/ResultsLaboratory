@@ -46,7 +46,7 @@ namespace ResultFieldsService.Services
         {
             var rs = await _session.ExecuteAsync(new SimpleStatement("SELECT result_field_id FROM result_fields"));
             var ids = rs.Select(r => r.GetValue<int>("result_field_id")).ToList();
-            rf.ResultFieldId = ids.Count > 0 ? ids.Max() + 1 : 0;
+            rf.ResultFieldId = ids.Count > 0 ? ids.Max() + 1 : 1;
 
             var now = DateTime.UtcNow;
             rf.CreatedAt = now;

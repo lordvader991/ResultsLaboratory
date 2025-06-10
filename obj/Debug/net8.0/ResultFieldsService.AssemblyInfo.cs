@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResultFieldsService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e96e494ffd9c3dc25afdbc31aadc8070bc421f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResultFieldsService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResultFieldsService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
