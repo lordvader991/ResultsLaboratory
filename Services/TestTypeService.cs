@@ -40,7 +40,7 @@ namespace TestTypeService.Services
         {
             var rs = await _session.ExecuteAsync(new SimpleStatement("SELECT test_type_id FROM test_types"));
             var ids = rs.Select(r => r.GetValue<int>("test_type_id")).ToList();
-            testType.TestTypeId = ids.Count > 0 ? ids.Max() + 1 : 0;
+            testType.TestTypeId = ids.Count > 0 ? ids.Max() + 1 : 1;
 
             var now = DateTime.UtcNow;
             testType.CreatedAt = now;

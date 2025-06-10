@@ -4079,11 +4079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\TestTypeService\\TestTypeService.csproj",
+      "projectUniqueName": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj",
       "projectName": "TestTypeService",
-      "projectPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\TestTypeService\\TestTypeService.csproj",
+      "projectPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj",
       "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Microservicio\\TestTypeService\\obj\\",
+      "outputPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\TestTypeService\\ResultsLaboratory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
