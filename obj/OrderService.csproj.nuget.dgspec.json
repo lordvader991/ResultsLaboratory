@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\OrderService.csproj": {}
+    "E:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\OrderService.csproj": {}
   },
   "projects": {
-    "e:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\OrderService.csproj": {
+    "E:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\OrderService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\OrderService.csproj",
+        "projectUniqueName": "E:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\OrderService.csproj",
         "projectName": "OrderService",
-        "projectPath": "e:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\OrderService.csproj",
+        "projectPath": "E:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\OrderService.csproj",
         "packagesPath": "C:\\Users\\JOSE MARIA\\.nuget\\packages\\",
-        "outputPath": "e:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\obj\\",
+        "outputPath": "E:\\Microservices\\microservicios\\OrderService\\ResultsLaboratory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
