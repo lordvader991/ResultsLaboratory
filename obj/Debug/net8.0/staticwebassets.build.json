@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "j6tYFeE3r1JYRGsJdTIrXh7xgWJQqy4nNxHKE1MKKjA=",
-  "Source": "TestTypeService",
-  "BasePath": "_content/TestTypeService",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"j6tYFeE3r1JYRGsJdTIrXh7xgWJQqy4nNxHKE1MKKjA=","Source":"TestTypeService","BasePath":"_content/TestTypeService","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
