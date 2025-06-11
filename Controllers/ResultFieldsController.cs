@@ -46,6 +46,16 @@ namespace ResultFieldsService.Controllers
 
             // Validar existencia de ResultId en ResultsService
             var resultsServiceUrl = _config["ResultsServiceUrl"];
+
+            // Obtener token JWT del request actual
+            var accessToken = Request.Headers["Authorization"].ToString();
+            if (string.IsNullOrWhiteSpace(accessToken))
+                return Unauthorized("Token no proporcionado");
+
+            // Agregar el token al header de la petición
+            httpClient.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken.Replace("Bearer ", ""));
+
             var respResult = await httpClient.GetAsync($"{resultsServiceUrl}/api/results/{rf.ResultId}");
             if (!respResult.IsSuccessStatusCode)
                 return BadRequest("El resultado (resultId) no existe.");
