@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\T003-24\\Desktop\\microservicios\\ClientService\\ResultsLaboratory\\testAPI_A.csproj": {}
+    "E:\\Microservices\\microservicios\\ClientService\\ResultsLaboratory\\testAPI_A.csproj": {}
   },
   "projects": {
-    "C:\\Users\\T003-24\\Desktop\\microservicios\\ClientService\\ResultsLaboratory\\testAPI_A.csproj": {
+    "E:\\Microservices\\microservicios\\ClientService\\ResultsLaboratory\\testAPI_A.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\T003-24\\Desktop\\microservicios\\ClientService\\ResultsLaboratory\\testAPI_A.csproj",
+        "projectUniqueName": "E:\\Microservices\\microservicios\\ClientService\\ResultsLaboratory\\testAPI_A.csproj",
         "projectName": "testAPI_A",
-        "projectPath": "C:\\Users\\T003-24\\Desktop\\microservicios\\ClientService\\ResultsLaboratory\\testAPI_A.csproj",
-        "packagesPath": "C:\\Users\\T003-24\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\T003-24\\Desktop\\microservicios\\ClientService\\ResultsLaboratory\\obj\\",
+        "projectPath": "E:\\Microservices\\microservicios\\ClientService\\ResultsLaboratory\\testAPI_A.csproj",
+        "packagesPath": "C:\\Users\\JOSE MARIA\\.nuget\\packages\\",
+        "outputPath": "E:\\Microservices\\microservicios\\ClientService\\ResultsLaboratory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\T003-24\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JOSE MARIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -110,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
