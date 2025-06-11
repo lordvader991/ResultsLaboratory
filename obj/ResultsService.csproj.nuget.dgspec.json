@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\T003-24\\Desktop\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {}
+    "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\T003-24\\Desktop\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {
+    "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\T003-24\\Desktop\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
+        "projectUniqueName": "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
         "projectName": "ResultsService",
-        "projectPath": "C:\\Users\\T003-24\\Desktop\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
-        "packagesPath": "C:\\Users\\T003-24\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\T003-24\\Desktop\\microservicios\\ResultsService\\ResultsLaboratory\\obj\\",
+        "projectPath": "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
+        "packagesPath": "C:\\Users\\JOSE MARIA\\.nuget\\packages\\",
+        "outputPath": "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\T003-24\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JOSE MARIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -57,6 +57,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.12, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
