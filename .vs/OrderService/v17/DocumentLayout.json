@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\OrderServicen8\\OrderService\\",
+  "WorkspaceRootPath": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\orderservicen8\\orderservice\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\orderservicen8\\orderservice\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|c:\\users\\t003-24\\desktop\\microservicios\\orderservice\\resultslaboratory\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\orderservicen8\\orderservice\\repositories\\cassandraorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|solutionrelative:repositories\\cassandraorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|c:\\users\\t003-24\\desktop\\microservicios\\orderservice\\resultslaboratory\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|c:\\users\\josem\\onedrive\\escritorio\\desktop\\orderservicen8\\orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|c:\\users\\t003-24\\desktop\\microservicios\\orderservice\\resultslaboratory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|c:\\users\\t003-24\\desktop\\microservicios\\orderservice\\resultslaboratory\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|c:\\users\\t003-24\\desktop\\microservicios\\orderservice\\resultslaboratory\\repositories\\cassandraorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0F06202-436A-4AD6-A424-DA13CEF6860E}|OrderService.csproj|solutionrelative:repositories\\cassandraorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:07:26.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\OrderServicen8\\OrderService\\Models\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\OrderServicen8\\OrderService\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T13:43:46.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CassandraOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\OrderServicen8\\OrderService\\Repositories\\CassandraOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\Repositories\\CassandraOrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CassandraOrderRepository.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\OrderServicen8\\OrderService\\Repositories\\CassandraOrderRepository.cs",
+              "ToolTip": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\Repositories\\CassandraOrderRepository.cs",
               "RelativeToolTip": "Repositories\\CassandraOrderRepository.cs",
               "ViewState": "AQIAAGQAAAAAAAAAAAAcwHoAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T01:20:17.821Z"
+              "WhenOpened": "2025-06-10T01:20:17.821Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\OrderServicen8\\OrderService\\Controllers\\OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\OrderServicen8\\OrderService\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAuwEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T01:19:52.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\OrderServicen8\\OrderService\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\OrderServicen8\\OrderService\\appsettings.json",
+              "ToolTip": "C:\\Users\\T003-24\\Desktop\\microservicios\\OrderService\\ResultsLaboratory\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-10T01:06:04.498Z"
+              "WhenOpened": "2025-06-10T01:06:04.498Z",
+              "EditorCaption": ""
             }
           ]
         }

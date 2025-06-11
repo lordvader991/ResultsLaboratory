@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OrderService.Models;
 using OrderService.Repositories;
 
@@ -14,14 +15,14 @@ namespace OrderService.Controllers
         {
             _repository = repository;
         }
-
+        [Authorize]
         [HttpGet("doctor/{doctorId}")]
         public async Task<IActionResult> GetOrdersByDoctor(int doctorId)
         {
             var orders = await _repository.GetOrdersByDoctorAsync(doctorId);
             return Ok(orders);
         }
-
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> CreateOrder([FromBody] Order order)
         {
@@ -43,28 +44,28 @@ namespace OrderService.Controllers
                 return StatusCode(500, "Error interno al guardar la orden.");
             }
         }
-
+        [Authorize]
         [HttpGet("patient/{patientId}")]
         public async Task<IActionResult> GetByPatient(int patientId)
         {
             var orders = await _repository.GetOrdersByPatientAsync(patientId);
             return Ok(orders);
         }
-
+        [Authorize]
         [HttpGet("test-type/{testTypeId}")]
         public async Task<IActionResult> GetByTestType(int testTypeId)
         {
             var orders = await _repository.GetOrdersByTestTypeAsync(testTypeId);
             return Ok(orders);
         }
-
+        [Authorize]
         [HttpGet("patient/{patientId}/type/{testTypeId}")]
         public async Task<IActionResult> GetByPatientAndType(int patientId, int testTypeId)
         {
             var orders = await _repository.GetOrdersByPatientAndTypeAsync(patientId, testTypeId);
             return Ok(orders);
         }
-
+        [Authorize]
         [HttpGet("{orderId}")]
         public async Task<IActionResult> GetOrderByIdWithFiltering(int orderId)
         {
@@ -75,7 +76,7 @@ namespace OrderService.Controllers
         }
 
 
-
+        [Authorize]
         [HttpPut("{orderId}")]
         public async Task<IActionResult> UpdateOrder(
             int orderId,
@@ -100,7 +101,7 @@ namespace OrderService.Controllers
 
             return Ok("Orden actualizada correctamente.");
         }
-
+        [Authorize]
         [HttpDelete("{orderId}")]
         public async Task<IActionResult> DeleteOrder(int orderId, [FromQuery] int doctorId)
         {
