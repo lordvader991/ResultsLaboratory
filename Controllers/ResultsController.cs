@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ResultsService.Models;
 using ResultsService.Services;
+using System.Net.Http.Headers;
 
 namespace ResultsService.Controllers
 {
@@ -25,7 +27,7 @@ namespace ResultsService.Controllers
             var results = await _service.GetAllResultsAsync();
             return Ok(results);
         }
-
+        [Authorize]
         [HttpGet("{resultId}")]
         public async Task<ActionResult<Result>> GetResult(int resultId)
         {
@@ -34,6 +36,7 @@ namespace ResultsService.Controllers
             return Ok(result);
         }
 
+        [Authorize]
         [HttpGet("orders/{orderId}")]
         public async Task<ActionResult<IEnumerable<Result>>> GetByOrderId(int orderId)
         {
@@ -42,10 +45,11 @@ namespace ResultsService.Controllers
                 return NotFound();
             return Ok(results);
         }
-
+        [Authorize]
         [HttpGet("patients/{patientId}")]
         public async Task<ActionResult<IEnumerable<Result>>> GetByPatientId(int patientId)
         {
+
             var results = await _service.GetResultsByPatientIdAsync(patientId);
             if (results == null || !results.Any())
                 return NotFound();
@@ -53,11 +57,19 @@ namespace ResultsService.Controllers
         }
 
 
-
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult> Create([FromBody] Result result)
         {
             var httpClient = _clientFactory.CreateClient();
+
+            // Obtener token JWT del request actual
+            var accessToken = Request.Headers["Authorization"].ToString();
+
+            if (string.IsNullOrWhiteSpace(accessToken))
+                return Unauthorized("Token no proporcionado");
+
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken.Replace("Bearer ", ""));
 
             // Validación de Patient
             var patientServiceUrl = _config["PatientServiceUrl"];
@@ -82,7 +94,7 @@ namespace ResultsService.Controllers
         }
 
 
-
+        [Authorize]
         [HttpPut("{resultId}")]
         public async Task<ActionResult> Update(int resultId, [FromBody] Result updated)
         {
@@ -91,7 +103,7 @@ namespace ResultsService.Controllers
             await _service.UpdateResultAsync(resultId, updated);
             return NoContent();
         }
-
+        [Authorize]
         [HttpDelete("{resultId}")]
         public async Task<ActionResult> Delete(int resultId)
         {

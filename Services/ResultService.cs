@@ -43,7 +43,7 @@ namespace ResultsService.Services
         public async Task<IEnumerable<Result>> GetResultsByOrderIdAsync(int orderId)
         {
             var rs = await _session.ExecuteAsync(
-                new SimpleStatement("SELECT * FROM results WHERE order_id = ?", orderId)
+                new SimpleStatement("SELECT * FROM results_by_order WHERE order_id = ?", orderId)
             );
             return rs.Select(row => new Result
             {
@@ -60,7 +60,7 @@ namespace ResultsService.Services
         public async Task<IEnumerable<Result>> GetResultsByPatientIdAsync(int patientId)
         {
             var rs = await _session.ExecuteAsync(
-                new SimpleStatement("SELECT * FROM results WHERE patient_id = ? ALLOW FILTERING", patientId)
+                new SimpleStatement("SELECT * FROM results_by_patient WHERE patient_id = ?", patientId)
             );
             return rs.Select(row => new Result
             {
@@ -88,11 +88,27 @@ namespace ResultsService.Services
             result.CreatedAt = now;
             result.UpdatedAt = now;
 
+            // Insertar en tabla principal
             await _session.ExecuteAsync(new SimpleStatement(
                 "INSERT INTO results (result_id, order_id, patient_id, test_type_id, status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)",
-                result.ResultId, result.OrderId, result.PatientId, result.TestTypeId, result.Status, result.CreatedAt, result.UpdatedAt));
+                result.ResultId, result.OrderId, result.PatientId, result.TestTypeId, result.Status, result.CreatedAt, result.UpdatedAt
+            ));
+
+            // Insertar en tabla denormalizada: results_by_order
+            await _session.ExecuteAsync(new SimpleStatement(
+                "INSERT INTO results_by_order (order_id, result_id, patient_id, test_type_id, status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)",
+                result.OrderId, result.ResultId, result.PatientId, result.TestTypeId, result.Status, result.CreatedAt, result.UpdatedAt
+            ));
+
+            // Insertar en tabla denormalizada: results_by_patient
+            await _session.ExecuteAsync(new SimpleStatement(
+                "INSERT INTO results_by_patient (patient_id, result_id, order_id, test_type_id, status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)",
+                result.PatientId, result.ResultId, result.OrderId, result.TestTypeId, result.Status, result.CreatedAt, result.UpdatedAt
+            ));
+
             return result.ResultId;
         }
+
 
         public async Task UpdateResultAsync(int resultId, Result updated)
         {
