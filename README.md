@@ -111,7 +111,27 @@ CREATE TABLE IF NOT EXISTS orders_by_patient_and_test_type (
     PRIMARY KEY ((patient_id, test_type_id), order_id)
 );
 
+CREATE TABLE IF NOT EXISTS results_by_order (
+    order_id int,
+    result_id int,
+    patient_id int,
+    test_type_id int,
+    status text,
+    created_at timestamp,
+    updated_at timestamp,
+    PRIMARY KEY (order_id, result_id)
+) WITH CLUSTERING ORDER BY (result_id ASC);
 
+CREATE TABLE IF NOT EXISTS results_by_patient (
+    patient_id int,
+    result_id int,
+    order_id int,
+    test_type_id int,
+    status text,
+    created_at timestamp,
+    updated_at timestamp,
+    PRIMARY KEY (patient_id, result_id)
+) WITH CLUSTERING ORDER BY (result_id ASC);
 
 CREATE INDEX IF NOT EXISTS idx_results_order_id ON results (order_id);
 CREATE INDEX IF NOT EXISTS idx_patient_email ON patients (email);
