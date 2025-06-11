@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.csproj": {}
+    "E:\\Microservices\\microservicios\\FieldService\\ResultsLaboratory\\FieldsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.csproj": {
+    "E:\\Microservices\\microservicios\\FieldService\\ResultsLaboratory\\FieldsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.csproj",
+        "projectUniqueName": "E:\\Microservices\\microservicios\\FieldService\\ResultsLaboratory\\FieldsService.csproj",
         "projectName": "FieldsService",
-        "projectPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\FieldsService.csproj",
-        "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josem\\OneDrive\\Escritorio\\Desktop\\fieldsService\\ResultsLaboratory\\obj\\",
+        "projectPath": "E:\\Microservices\\microservicios\\FieldService\\ResultsLaboratory\\FieldsService.csproj",
+        "packagesPath": "C:\\Users\\JOSE MARIA\\.nuget\\packages\\",
+        "outputPath": "E:\\Microservices\\microservicios\\FieldService\\ResultsLaboratory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JOSE MARIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -53,6 +53,10 @@
             "CassandraCSharpDriver": {
               "target": "Package",
               "version": "[3.22.0, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

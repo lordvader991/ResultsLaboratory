@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "MvxuEFGlv1yBFBZLdhaxea4li/waceXjaWzId+kBqk4=",
-  "Source": "FieldsService",
-  "BasePath": "_content/FieldsService",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"MvxuEFGlv1yBFBZLdhaxea4li/waceXjaWzId+kBqk4=","Source":"FieldsService","BasePath":"_content/FieldsService","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
