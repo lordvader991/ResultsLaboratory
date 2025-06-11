@@ -28,6 +28,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.0" />
   </ItemGroup>
 
 </Project>
