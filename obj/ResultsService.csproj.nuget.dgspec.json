@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {}
+    "E:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {}
   },
   "projects": {
-    "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {
+    "E:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
+        "projectUniqueName": "E:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
         "projectName": "ResultsService",
-        "projectPath": "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
+        "projectPath": "E:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\ResultsService.csproj",
         "packagesPath": "C:\\Users\\JOSE MARIA\\.nuget\\packages\\",
-        "outputPath": "e:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\obj\\",
+        "outputPath": "E:\\Microservices\\microservicios\\ResultsService\\ResultsLaboratory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

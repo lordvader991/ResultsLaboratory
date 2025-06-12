@@ -65,33 +65,55 @@ namespace ResultsService.Controllers
 
             // Obtener token JWT del request actual
             var accessToken = Request.Headers["Authorization"].ToString();
-
             if (string.IsNullOrWhiteSpace(accessToken))
                 return Unauthorized("Token no proporcionado");
-
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken.Replace("Bearer ", ""));
 
-            // Validación de Patient
+            // Validar paciente
             var patientServiceUrl = _config["PatientServiceUrl"];
             var patientResponse = await httpClient.GetAsync($"{patientServiceUrl}/api/Pacientes/{result.PatientId}");
             if (!patientResponse.IsSuccessStatusCode)
                 return BadRequest("El paciente (patientId) no existe.");
 
-            // Validación de testType
+            // Validar testType
             var testTypeServiceUrl = _config["TestTypeServiceUrl"];
             var testTypeResponse = await httpClient.GetAsync($"{testTypeServiceUrl}/api/testtypes/{result.TestTypeId}");
             if (!testTypeResponse.IsSuccessStatusCode)
                 return BadRequest("El tipo de análisis (testTypeId) no existe.");
 
-            // Validación de Order
+            // Obtener la orden y validar orderId + patientId + testTypeId
             var ordersServiceUrl = _config["OrdersServiceUrl"];
             var orderResponse = await httpClient.GetAsync($"{ordersServiceUrl}/orders/{result.OrderId}");
             if (!orderResponse.IsSuccessStatusCode)
                 return BadRequest("La orden (orderId) no existe.");
 
+            var orderJson = await orderResponse.Content.ReadAsStringAsync();
+            // Usa tu modelo de Order para deserializar
+            var order = System.Text.Json.JsonSerializer.Deserialize<OrderDto>(orderJson, new System.Text.Json.JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+            if (order == null)
+                return BadRequest("No se pudo obtener la orden.");
+
+            // Verifica que los datos coincidan
+            if (order.PatientId != result.PatientId || order.TestTypeId != result.TestTypeId)
+                return BadRequest("La orden no corresponde al paciente ni al tipo de análisis enviado.");
+
             var resultId = await _service.AddResultAsync(result);
             return CreatedAtAction(nameof(GetResult), new { resultId = resultId }, result);
         }
+
+        // Puedes poner tu clase auxiliar aquí mismo o en Models:
+        public class OrderDto
+        {
+            public int OrderId { get; set; }
+            public int DoctorId { get; set; }
+            public int PatientId { get; set; }
+            public int TestTypeId { get; set; }
+            public DateTime OrderDate { get; set; }
+            public string Status { get; set; }
+            public string Notes { get; set; }
+        }
+
 
 
         [Authorize]
