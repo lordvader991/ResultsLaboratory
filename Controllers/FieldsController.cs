@@ -55,22 +55,6 @@ namespace FieldsService.Controllers
             return CreatedAtAction(nameof(GetField), new { testTypeId = field.TestTypeId, fieldId = fieldId }, field);
         }
 
-        [HttpPut("{testTypeId}/{fieldId}")]
-        public async Task<ActionResult> Update(int testTypeId, int fieldId, [FromBody] Field updated)
-        {
-            var existing = await _service.GetFieldAsync(testTypeId, fieldId);
-            if (existing == null) return NotFound();
-            await _service.UpdateFieldAsync(testTypeId, fieldId, updated);
-            return NoContent();
-        }
 
-        [HttpDelete("{testTypeId}/{fieldId}")]
-        public async Task<ActionResult> Delete(int testTypeId, int fieldId)
-        {
-            var existing = await _service.GetFieldAsync(testTypeId, fieldId);
-            if (existing == null) return NotFound();
-            await _service.DeleteFieldAsync(testTypeId, fieldId);
-            return NoContent();
-        }
     }
 }
