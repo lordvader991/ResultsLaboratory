@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "8ZL+tSrkclgv2DS0Og2Up+SRVRG+grDA4Uoev/+vOb4=",
+  "Source": "CassandraJwtAuth",
+  "BasePath": "_content/CassandraJwtAuth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

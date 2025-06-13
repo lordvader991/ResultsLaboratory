@@ -1,0 +1,6 @@
+@CassandraJwtAuth_HostAddress = http://localhost:5285
+
+GET {{CassandraJwtAuth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
