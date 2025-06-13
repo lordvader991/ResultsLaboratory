@@ -9,7 +9,7 @@ namespace TestTypeService.Controllers
     {
         private readonly TestTypeService.Services.TestTypeService _service;
 
-        public TestTypesController(TestTypeService.Services.TestTypeService service)        
+        public TestTypesController(TestTypeService.Services.TestTypeService service)
         {
             _service = service;
         }
@@ -36,22 +36,5 @@ namespace TestTypeService.Controllers
             return CreatedAtAction(nameof(GetById), new { testTypeId = id }, testType);
         }
 
-        [HttpPut("{testTypeId}")]
-        public async Task<ActionResult> Update(int testTypeId, [FromBody] TestType updated)
-        {
-            var existing = await _service.GetByIdAsync(testTypeId);
-            if (existing == null) return NotFound();
-            await _service.UpdateAsync(testTypeId, updated);
-            return NoContent();
-        }
-
-        [HttpDelete("{testTypeId}")]
-        public async Task<ActionResult> Delete(int testTypeId)
-        {
-            var existing = await _service.GetByIdAsync(testTypeId);
-            if (existing == null) return NotFound();
-            await _service.DeleteAsync(testTypeId);
-            return NoContent();
-        }
     }
 }

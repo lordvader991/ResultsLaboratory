@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj": {}
+    "e:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj": {}
   },
   "projects": {
-    "E:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj": {
+    "e:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj",
+        "projectUniqueName": "e:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj",
         "projectName": "TestTypeService",
-        "projectPath": "E:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj",
+        "projectPath": "e:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\TestTypeService.csproj",
         "packagesPath": "C:\\Users\\JOSE MARIA\\.nuget\\packages\\",
-        "outputPath": "E:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\obj\\",
+        "outputPath": "e:\\Microservices\\microservicios\\TestTypeService\\ResultsLaboratory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
