@@ -29,12 +29,7 @@ namespace TestTypeService.Controllers
             return Ok(testType);
         }
 
-        [HttpPost]
-        public async Task<ActionResult> Create([FromBody] TestType testType)
-        {
-            var id = await _service.AddAsync(testType);
-            return CreatedAtAction(nameof(GetById), new { testTypeId = id }, testType);
-        }
+
 
     }
 }
