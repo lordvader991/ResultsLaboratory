@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using CassandraJwtAuth.Models;
+using System.Threading.Tasks;
+using CassandraJwtAuth.Services;
 
 namespace CassandraJwtAuth.Controllers;
 
@@ -10,20 +12,33 @@ namespace CassandraJwtAuth.Controllers;
 
 public class UserController : ControllerBase
 {
-    [Authorize]
-    [HttpGet("profile")]
-    public IActionResult GetProfile()
+    private readonly AuthService _authService;
+
+    public UserController(AuthService authService)
     {
-        var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
-        var email = User.Identity?.Name ?? "desconocido";
+        _authService = authService;
+    }
 
-        // Aquí podrías obtener más información del usuario desde la base de datos si es necesario
+    [Authorize]
+    [HttpGet("{userId}")]
+    public async Task<IActionResult> GetUserById(int userId)
+    {
+        var user = await _authService.GetUserByIdAsync(userId);
 
-        return Ok(new
+        if (user == null)
         {
-            Message = "Perfil de usuario accedido",
-            UserId = userId,
-            Email = email
-        });
+            return NotFound("Usuario no encontrado");
+        }
+        return Ok(
+            new
+            {
+                user.Id,
+                user.Email,
+                user.Name,
+                user.Specialty,
+                user.Address,
+                user.LicenseNumber
+            }
+        );
     }
 }

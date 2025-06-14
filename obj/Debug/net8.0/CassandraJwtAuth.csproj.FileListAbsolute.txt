@@ -109,3 +109,4 @@ E:\Microservices\microservicios\login\CassandraJwtAuth\obj\Debug\net8.0\refint\C
 E:\Microservices\microservicios\login\CassandraJwtAuth\obj\Debug\net8.0\CassandraJwtAuth.pdb
 E:\Microservices\microservicios\login\CassandraJwtAuth\obj\Debug\net8.0\CassandraJwtAuth.genruntimeconfig.cache
 E:\Microservices\microservicios\login\CassandraJwtAuth\obj\Debug\net8.0\ref\CassandraJwtAuth.dll
+E:\Microservices\microservicios\login\CassandraJwtAuth\obj\Debug\net8.0\CassandraJwtAuth.sourcelink.json

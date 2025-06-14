@@ -31,7 +31,27 @@ public class AuthService
     }
     return null;
 }
+public async Task<User?> GetUserByIdAsync(int userId)
+    {
+        var stmt = await _session.ExecuteAsync(
+            new SimpleStatement("SELECT id, email,name, specialty, address, license_number FROM users_by_id WHERE id = ?", userId)
+        );
+        var row = stmt.FirstOrDefault();
+        if (row != null)
+        {
+            return new User
+            {
+                Id = row.GetValue<int>("id"),
+                Email = row.GetValue<string>("email"),
+                Name = row.GetValue<string>("name"),
+                Specialty = row.GetValue<string>("specialty"),
+                Address = row.GetValue<string>("address"),
+                LicenseNumber = row.GetValue<string>("license_number"),
+            };
+        }
 
+        return null; // <- importante
+    }
 
     //public bool VerifyPassword(string password, string storedHash)
     //{

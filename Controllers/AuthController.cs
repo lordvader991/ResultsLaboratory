@@ -40,7 +40,10 @@ public class AuthController : ControllerBase
         // Nueva línea: genera token con ID y email
         var token = _jwtService.GenerateToken(user.Id, user.Email);
 
-        return Ok(new { token });
+        return Ok(new {
+            id = user.Id,
+            token
+        });
     }
 
     [Authorize]
